@@ -3,8 +3,8 @@
     export let todo: Todo
 </script>
 
-<div class="card w-96 bg-base-100 shadow-xl image-full">
-  <figure><img src="https://placeimg.com/400/225/tech" alt="Shoes" /></figure>
+<div class="card bg-base-100 shadow-xl image-full px-2">
+  <figure><img src="https://placeimg.com/400/225/tech" alt="todo-icon" /></figure>
   <div class="card-body">
     <h2 class="card-title">#{todo.id}</h2>
     <p>{todo.todo}</p>
